@@ -17,9 +17,6 @@ function findAbacus(array) {
             return i;
         }
     }
-    if (array.length === 0) {
-        return null;
-    }
     return null;
 
 }

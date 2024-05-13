@@ -9,20 +9,18 @@ If the array is empty then it should return an empty array.
  */
 
 function filterDivisible(numbers, divisor) {
-    let divisible=[];
-    if(numbers.length===0){
+    let divisible = [];
+    if (numbers.length === 0) {
         return divisible;
     }
-    if(divisor===0){
+    if (divisor === 0) {
         return null;
     }
     for (const number of numbers) {
-        if(number%divisor===0){
+        if (number % divisor === 0) {
             divisible.push(number);
         }
-        
     }
-    
     return divisible;
 }
 
